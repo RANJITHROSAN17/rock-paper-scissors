@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .choice-container {
+    text-align: center;
+  }
+  
+  .choice-container img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+  }
+  h1 {
+    color: #333;
+  }
+  
+  .game-container {
+    margin-top: 50px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

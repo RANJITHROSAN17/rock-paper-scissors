@@ -12,3 +12,6 @@ To make your choice, simply type "rock," "paper," or "scissors" and press enter.
 
 Are you ready to test your luck and strategy in this classic game? Let's get started!
 
+click the below link to start game
+
+https://ranjithrosan17.github.io/rockpaperscissor-game/

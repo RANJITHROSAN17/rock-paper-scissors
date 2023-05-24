@@ -9,7 +9,12 @@ Paper beats rock: If you choose paper and the computer chooses rock, you win!
 On the other hand, if you and the computer choose the same option, it's a tie and the game is played again.
 
 To make your choice, simply type "rock," "paper," or "scissors" and press enter. The computer will randomly generate its choice, and the winner will be determined based on the rules mentioned above.
-
+rock paper scissors
+rock paper scissors book
+rock paper scissors lizard spock
+rock paper scissors online
+rock paper scissors game
+rock paper scissors salon
 Are you ready to test your luck and strategy in this classic game? Let's get started!
 
 click the below link to start game

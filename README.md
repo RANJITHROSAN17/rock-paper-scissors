@@ -20,6 +20,7 @@ Are you ready to test your luck and strategy in this classic game? Let's get sta
 
 Click the link below to start the game:
 
-Play [Rock-Paper-Scissors Game] 
+Play [Rock-Paper-Scissors Game](https://ranjithrosan17.github.io/rockpaperscissor-game/)!
+
 
 Enjoy the game and have fun challenging the computer! 😊

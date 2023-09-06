@@ -1,8 +1,10 @@
+/* Use the same font and text alignment styles */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
+/* Center the game components and allow wrapping for smaller screens */
 .game-container {
   display: flex;
   justify-content: center;
@@ -10,6 +12,7 @@ body {
   flex-wrap: wrap;
 }
 
+/* Center-align the choice container and style the images */
 .choice-container {
   text-align: center;
   margin: 10px;
@@ -20,23 +23,25 @@ body {
   height: 150px;
 }
 
+/* Improve button styling: center buttons and enhance hover effect */
 .choice-container button {
   display: block;
-  margin-top: 10px;
-  margin-left: auto; /* Added */
-  margin-right: auto; /* Added */
+  margin: 10px auto; /* Center buttons horizontally */
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4CAF50;
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Smooth button hover effect */
 }
 
 .choice-container button:hover {
   background-color: #45a049;
 }
 
+/* Keep the h1 and result styles as before */
 h1 {
   color: #333;
 }
@@ -45,4 +50,5 @@ h1 {
   margin-top: 20px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center; /* Center-align the result text */
 }

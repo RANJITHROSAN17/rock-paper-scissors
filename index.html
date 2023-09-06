@@ -1,23 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock Paper Scissors</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    /* Add custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 20px;
+    }
+
+    .game-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .choice-container {
+      margin: 10px;
+    }
+
+    .choice-button {
+      background-color: #4caf50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #result {
+      font-size: 24px;
+      color: #333;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <h1>Rock Paper Scissors</h1>
   <div class="game-container">
     <div class="choice-container">
       <img src="rock-image.png" alt="Rock">
-      <button onclick="startGame('rock')">Rock</button>
+      <button class="choice-button" onclick="startGame('rock')">Rock</button>
     </div>
     <div class="choice-container">
       <img src="paper-image.png" alt="Paper">
-      <button onclick="startGame('paper')">Paper</button>
+      <button class="choice-button" onclick="startGame('paper')">Paper</button>
     </div>
     <div class="choice-container">
       <img src="scissors-image.png" alt="Scissors">
-      <button onclick="startGame('scissors')">Scissors</button>
+      <button class="choice-button" onclick="startGame('scissors')">Scissors</button>
     </div>
     <p id="result"></p>
   </div>

@@ -5,21 +5,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors-game/stargazers">
-    <img src="https://img.shields.io/github/stars/ranjithrosan17/rock-paper-scissors-game?style=social" alt="GitHub stars">
+  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/stargazers">
+    <img src="https://img.shields.io/github/stars/ranjithrosan17/rock-paper-scissors?style=social" alt="GitHub stars">
   </a>
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors-game/network">
-    <img src="https://img.shields.io/github/forks/ranjithrosan17/rock-paper-scissors-game?style=social" alt="GitHub forks">
+  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/network">
+    <img src="https://img.shields.io/github/forks/ranjithrosan17/rock-paper-scissors?style=social" alt="GitHub forks">
   </a>
   <br>
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors-game/actions/workflows/ci-cd.yml">
-    <img src="https://img.shields.io/github/workflow/status/ranjithrosan17/rock-paper-scissors-game/CI/CD?label=CI/CD&logo=github" alt="CI/CD">
+  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/issues">
+    <img src="https://img.shields.io/github/issues/ranjithrosan17/rock-paper-scissors?logo=github" alt="GitHub issues">
   </a>
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors-game/issues">
-    <img src="https://img.shields.io/github/issues/ranjithrosan17/rock-paper-scissors-game?logo=github" alt="GitHub issues">
-  </a>
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors-game/pulls">
-    <img src="https://img.shields.io/github/issues-pr/ranjithrosan17/rock-paper-scissors-game?logo=github" alt="GitHub pull requests">
+  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/pulls">
+    <img src="https://img.shields.io/github/issues-pr/ranjithrosan17/rock-paper-scissors?logo=github" alt="GitHub pull requests">
   </a>
 </p>
 

@@ -66,7 +66,9 @@
       <img src="scissors-image.png" alt="Scissors">
       <button class="choice-button" onclick="startGame('scissors')">Scissors</button>
     </div>
-    <p id="result"></p>
+    <p id="score" aria-live="polite">You 0 — Computer 0 · Round 0/5</p>
+    <p id="result" role="status">Choose rock, paper or scissors.</p>
+    <button type="button" onclick="resetGame()">Play again</button>
   </div>
 
   <script src="script.js"></script>

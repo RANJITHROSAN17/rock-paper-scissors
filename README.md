@@ -38,6 +38,10 @@ Tests cover all nine matchups, invalid input, a complete five-round match, no ex
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). A useful bug report includes browser/version, the choices made and the expected versus actual result. A useful small improvement is a keyboard or mobile-layout fix with a reproducible check—not a dependency added for its own sake.
 
+## Maintainer
+
+**[Ranjith Rosan](https://github.com/RANJITHROSAN17)** maintains this Rock–Paper–Scissors browser game and its learning examples.
+
 ## License
 
 [MIT](LICENSE).

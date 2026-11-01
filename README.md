@@ -1,50 +1,47 @@
-<h1 align="center">Rock-Paper-Scissors Game</h1>
+# Rock–Paper–Scissors
 
-<p align="center">
-  <img src="https://media.giphy.com/media/J54y1LH5rBQw2Zziqa/giphy.gif" alt="Rock-Paper-Scissors Animation">
-</p>
+A five-round browser game built with plain HTML, CSS and JavaScript. Choose a button, see the computer’s move and keep score—no account, framework or package installation.
 
-<p align="center">
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/stargazers">
-    <img src="https://img.shields.io/github/stars/ranjithrosan17/rock-paper-scissors?style=social" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/network">
-    <img src="https://img.shields.io/github/forks/ranjithrosan17/rock-paper-scissors?style=social" alt="GitHub forks">
-  </a>
-  <br>
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/issues">
-    <img src="https://img.shields.io/github/issues/ranjithrosan17/rock-paper-scissors?logo=github" alt="GitHub issues">
-  </a>
-  <a href="https://github.com/ranjithrosan17/rock-paper-scissors/pulls">
-    <img src="https://img.shields.io/github/issues-pr/ranjithrosan17/rock-paper-scissors?logo=github" alt="GitHub pull requests">
-  </a>
-</p>
+[**Play in your browser**](https://ranjithrosan17.github.io/rock-paper-scissors/)
 
-Rock-Paper-Scissors Game 🎉
-Welcome to the Rock-Paper-Scissors game! In this classic game, you'll be competing against the computer to see who can make the best choices and come out victorious.
+## Run locally
 
-To play, you and the computer will each choose one of three options: rock, paper, or scissors. Here's how the game works:
+Clone this repository and open `index.html` in a browser. All game assets are included locally.
 
-Rock 👊 beats scissors ✌️: If you choose rock and the computer chooses scissors, you win!
-Scissors ✌️ beats paper 🖐️: If you choose scissors and the computer chooses paper, you win!
-Paper 🖐️ beats rock 👊: If you choose paper and the computer chooses rock, you win!
-On the other hand, if you and the computer choose the same option, it's a tie, and the game is played again.
+```bash
+git clone https://github.com/RANJITHROSAN17/rock-paper-scissors.git
+cd rock-paper-scissors
+# Open index.html using your file manager or browser.
+```
 
-To make your choice, simply type "rock," "paper," or "scissors" and press enter. The computer will randomly generate its choice, and the winner will be determined based on the rules mentioned above.
+Click **Rock**, **Paper** or **Scissors**. After five rounds, the choices lock and the match result appears. **Play again** resets scores and unlocks the controls. Ties count as a round. Only the classic three choices are implemented; there is no lizard/Spock mode.
 
-Additional Features:
-If you want to spice up the game with additional options, we've got you covered! Here are the extended rules with lizard 🦎 and Spock 🖖:
+The computer chooses independently with `Math.random()`; this is a casual game, not a cryptographically fair contest.
 
-Rock 👊 crushes scissors ✌️ and lizard 🦎.
-Paper 🖐️ covers rock 👊 and Spock 🖖.
-Scissors ✌️ cuts paper 🖐️ and lizard 🦎.
-Lizard 🦎 poisons Spock 🖖 and eats paper 🖐️.
-Spock 🖖 smashes scissors ✌️ and vaporizes rock 👊.
-Are you ready to test your luck and strategy in this classic game? Let's get started! 🚀
+## Learn from the code
 
-How to Play:
-Click the link below to start the game:
+- `index.html`: the controls and live result region.
+- `script.js`: independent computer choice, winner calculation, match state and reset.
+- `style.css`: choice-card styling; images are checked into this repository.
 
-Play Rock-Paper-Scissors Game
+## Verify changes
 
-Enjoy the game and have fun challenging the computer! 😊
+With Node.js 20+ (development only):
+
+```bash
+node --test test/game.test.cjs
+```
+
+Tests cover all nine matchups, invalid input, a complete five-round match, no extra scoring after the match, and replay. Also check keyboard controls and layout in a real browser; the Node tests use a small DOM fixture, not a browser engine.
+
+## Contribute
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). A useful bug report includes browser/version, the choices made and the expected versus actual result. A useful small improvement is a keyboard or mobile-layout fix with a reproducible check—not a dependency added for its own sake.
+
+## Maintainer
+
+**[Ranjith Rosan](https://github.com/RANJITHROSAN17)** maintains this Rock–Paper–Scissors browser game and its learning examples.
+
+## License
+
+[MIT](LICENSE).
